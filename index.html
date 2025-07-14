@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+    <link rel="icon" 
+    type="image/png" 
+    href="logo.ico"/>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <!--AOS Css Link-->
+    <link rel="stylesheet" href="Js/aos-master/dist/aos.css">
+<!--Local Style Sheet-->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header id="home">
+        <div class="container">
+            <div class="hamburger-menu">
+                <i class="fas fa-bars toggle"></i>
+                <i class="fas fa-times toggle"></i>
+            </div>
+            <nav class="d-flex align-item-center justify-content-center justify-content-lg-between">
+                <a class="navbar-brand" href="index.html">
+                    <img  class="img-fluid" src="imgs/logo.png" alt="">
+                </a>
+                <ul class="nav-list p-0 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#chefs">Our Team</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="hero-text w-100 text-white px-2 px-sm-0">
+                <h1 class="display-4">Welcome</h1>
+                <p class="lead mb-4">Bakery Like You Have Never Seen It Before!</p>
+                <a class="btn px-4 mr-2" href="#">Explore</a>
+                <a class="btn px-4 ml-2" href="#">Find A Store</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="row align-items-lg-center" data-aos="fade-right">
+                    <div class="col-12 col-md-6 text-center text-md-left">
+                        <div class="section-heading mb-3">
+                            <h4>Discover</h4>
+                            <h1 class="display-4">Our Story</h1>
+                        </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis, debitis harum magni voluptates voluptatem earum dolore modi perspiciatis natus non quaerat ullam, eius fugit dolorum doloribus consequatur laudantium alias recusandae incidunt, quis sequi molestiae eum. Veritatis facere debitis qui!
+                    </p>
+                    <a class="btn mt-4 mb-4 mb-md-0" href="#">Find Out More</a>
+                </div>
+                    <div class="col-12 col-md-6 text-center" data-aos="fade-left">
+                        <img class="img-fluid" src="imgs/about-img.jpg" alt="about us image">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="menu" id="menu">
+            <div class="row text-center">
+                <div class="col-12 col-md-4 mb-4 mb-md-0 text-white" data-aos="fade-up">
+                    <div class="shop-info">
+                        <i class="far fa-clock mb-3"></i>
+                        <h1 class="mb-4">Operating Hours</h1>
+                        <p>Mon to Fri: 8:00 AM - 6:00 PM</p>
+                        <p>Sat to Sun: 8:00 AM - 1:00 PM</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-md-0 text-white" data-aos="fade-down">
+                    <div class="shop-info">
+                        <i class="fas fa-map-marked-alt mb-3"></i>
+                        <h1 class="mb-4">Our Location</h1>
+                        <address>
+                            275 San Jhons Ave. <br>
+                            New Castle,DE 19720
+                        </address>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-md-0 text-white" data-aos="fade-up">
+                    <div class="shop-info">
+                        <i class="fas fa-mobile-alt mb-3"></i>
+                        <h1 class="mb-4">Get In Touch</h1>
+                        <p>Phone: (650)-735-1448</p>
+                        <p>Email: Baker@bakemania.com</p>
+                    </div>
+                </div>
+                <hr class="mb-5 mt-5">
+            </div>
+            <div class="container-fluid p-0">
+                <div class="section-heading my-5 text-center">
+                    <h4 class="text-white">Our Tastey Food</h4>
+                    <h1 class="display-4">The Menu</h1>
+                </div>
+                <!--Row #1-->
+                <div class="row no-gutters">
+                    <!--Col set # 1-->
+                    <div class="col-12 col-sm-6 col-xl-2 order-sm-1 order-xl-1">
+                        <img class="img-fluid" src="imgs/menu-item-1.jpg" alt="cake sliced into multiple pieces with nuts scattered on top">
+                    </div>
+                    <div class="col-12 col-sm-6 col-xl-2 order-sm-2 order-xl-2 point-left">
+                        <div class="menu-item-desc">
+                            <h6>$10.00</h6>
+                            <h1>Classic Bakery Cake</h1>
+                            <p>Our Classic  oatmel cake baked with milk and rich with nuts, for a crunchy touch<p>
+                        </div>
+                    </div>
+                    <!--Col set # 2-->
+                    <div class="col-12 col-sm-6 col-xl-2 order-sm-4 order-xl-3">
+                        <img class="img-fluid" src="imgs/menu-item-2.jpg" alt="choclate cake sliced in a plate">
+                    </div>
+                    <div class="col-12 col-sm-6 col-xl-2 order-sm-3 order-xl-4 point-left">
+                        <div class="menu-item-desc">
+                            <h6>$20.00</h6>
+                            <h1>Bakery Choco Cake</h1>
+                            <p>Our choclate cake baked with love, a great option for all choclate lovers.</p>
+                        </div>
+                    </div>
+                    <!--Col set # 3-->
+                    <div class="col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-5">
+                        <img class="img-fluid" src="imgs/menu-item-3.jpg" alt="choclate cake sliced in a plate">
+                    </div>
+                    <div class="col-12 col-sm-6 col-xl-2 order-sm-6 order-xl-6 point-left">
+                        <div class="menu-item-desc">
+                            <h6>$20.00</h6>
+                            <h1>Choclate Waffle Cake</h1>
+                            <p>Our Waffle mixed choclate cake baked with white choclate and dark choclate<p>
+                        </div>
+                    </div>
+                </div>
+                <!--Row #2-->
+                <div class="row no-gutters">
+                    <!--Col set # 1-->
+                    <div class="col-12 col-sm-6 col-xl-2 order-sm-2 order-xl-2">
+                        <img class="img-fluid" src="imgs/menu-item-4.jpg" alt="vanilla cake sliced in a plate">
+                    </div>
+                    <div class="col-12 col-sm-6 col-xl-2 order-sm-1 order-xl-1 point-right">
+                        <div class="menu-item-desc">
+                            <h6>$22.00</h6>
+                            <h1>Blueberry Vanilla Cake</h1>
+                            <p>Our Classic blueberry cake almost great for everything!</p>
+                        </div>
+                    </div>
+                    <!--Col set # 2-->
+                    <div class="col-12 col-sm-6 col-xl-2 order-sm-3 order-xl-4">
+                        <img class="img-fluid" src="imgs/menu-item-5.jpg" alt="small pieces of baked dessert in different shapes and ingredients">
+                    </div>
+                    <div class="col-12 col-sm-6 col-xl-2 order-sm-4 order-xl-3 point-right">
+                        <div class="menu-item-desc">
+                            <h6>$17.00</h6>
+                            <h1>Small Dessert Pack</h1>
+                            <p>Colorful dessert for all the family, small chunks of happiness with different colors</p>
+                        </div>
+                    </div>
+                    <!--Col set # 3-->
+                    <div class="col-12 col-sm-6 col-xl-2 order-sm-6 order-xl-6">
+                        <img class="img-fluid" src="imgs/menu-item-6.jpg" alt="a box opened holding 20 choclate balls, each 4 of them has different flavor, the box cover has a ribbon and gift wrapped">
+                    </div>
+                    <div class="col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-5 point-right">
+                        <div class="menu-item-desc">
+                            <h6>$27.00</h6>
+                            <h1>Choclate Balls Gift Box</h1>
+                            <p>Delightful collection of choclate balls in a a lovely gift box for birthdays' gift!</p>
+                        </div>
+                    </div>
+                </div>               
+        </section>
+
+        <section class="chefs" id="chefs">
+            <div class="container text-center">
+                <div class="section-heading my-5">
+                    <h4>Meet</h4>
+                    <h1 class="display-4">Our Chefs</h1>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4" data-aos="fade-left">
+                        <img  class="img-fluid" src="imgs/chef-1.png" alt=" photo of Emilia our first Chef" >
+                        <div class="card-body">
+                            <h1>Hope Mikaelson</h1>
+                            <h6>Cupcake Specialist</h6>
+                            <p>Emilia is a chef, so she can cook!</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4" data-aos="fade-up">
+                        <img  class="img-fluid" src="imgs/chef-2.png" alt=" photo of Davina our 2nd Chef">
+                        <div class="card-body">
+                            <h1>Lila Touaibia</h1>
+                            <h6>Sauce Advisor</h6>
+                            <p>Lila is a chef, so she can fix her hand!</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4" data-aos="fade-right">
+                        <img  class="img-fluid" src="imgs/chef-3.png" alt=" photo of Vincent our 3rd Chef">
+                        <div class="card-body">
+                            <h1>Vincent Griffith</h1>
+                            <h6>Donuts Manager</h6>
+                            <p>Vincent is a chef, so he is!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="text-center py-5">
+            &copy;Bakery 2020 by Safei
+        </footer>
+    </main>
+<!--Bootstrap Scripts-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+<!--Font Awesome Scripts-->
+<script src="https://kit.fontawesome.com/5f294d660e.js" crossorigin="anonymous"></script>
+<!--AOS Scripts-->
+<script src="Js/aos-master/dist/aos.js"></script>
+<script src="Js/main.js"></script>
+</body>
+</html>
